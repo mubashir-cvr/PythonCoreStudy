@@ -1,6 +1,7 @@
 # String Reverse 
 
 s = 'Hello World'
+print(s.capitalize())
 print(s[::-1])
 
 #String methods

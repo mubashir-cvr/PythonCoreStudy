@@ -19,10 +19,12 @@ if s.count('l'):
 # s= 'hi {name},Welcome to {lang} programming'
 # print(s.format(name='User',lang='Python'))
 
-#String Format usinf f
+#String Format usinf f string 
 
 name = 'Mubashir'
 age = 22
 s= f'Hello {name} , Age : {age}'
 
 print(s)
+
+print(s.isdecimal())

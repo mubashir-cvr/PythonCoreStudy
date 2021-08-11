@@ -73,3 +73,19 @@ def passByref(n):
 
 lst = [1,2,3,5]
 passByref(lst)
+
+
+
+# Scope of variable  Fuction 
+item = 'Apple'
+my_var ='Value from out side of the function '
+def display():
+    global item
+    item = 'Mango'
+    my_var='Value from  the function '
+    print('Printing Item from Inside of fxn : ',item)
+    print('Printing my_var from Inside of fxn : ',my_var)
+
+display()
+print('Printing Item from outside fxn: ',item)
+print('Printing my_var from outside fxn: ',my_var)

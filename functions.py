@@ -34,13 +34,18 @@ def greetArbitary(*names):
 
 
 greetArbitary("Monica", "Luke", "Steve", "John")
+#Arbitary Argumetn With Key,Value
+def myfn(**data):
+    print(data)
 
+myfn(key1=1,key2=2,Key3=3,key4=4,key5=5)
 # KeyWord Argument 
-# 2 keyword arguments
+    # 2 keyword arguments
 greet(name = "Bruce",msg = "How do you do?")
 
-# 2 keyword arguments (out of order)
+    # 2 keyword arguments (out of order)
 greet(msg = "How do you do?",name = "Bruce") 
 
-# 1 positional, 1 keyword argument
+    # 1 positional, 1 keyword argument
 greet("Bruce", msg = "How do you do?")  
+

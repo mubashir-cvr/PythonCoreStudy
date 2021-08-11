@@ -63,3 +63,13 @@ greet(msg = "How do you do?",name = "Bruce")
     # 1 positional, 1 keyword argument
 greet("Bruce", msg = "How do you do?")  
 
+
+
+
+# Pass by Reference 
+def passByref(n):
+    print(n)
+    print(n[0])
+
+lst = [1,2,3,5]
+passByref(lst)

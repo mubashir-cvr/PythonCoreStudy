@@ -4,10 +4,10 @@
 
 
 InPut=input('Enter Your input :')
-if InPut.isdecimal():
-    print(f' You Entered a Decimal = {InPut} '.center(40,'#'))
+if InPut.isnumeric():
+    print(f' You Entered a Numeric  = {int(InPut)} ')
 else:
-    print(f'Input in lower case : {InPut.lower()}')
+    print('Input in lower case : ',InPut.lower())
     print(f'Input in Upper case : {InPut.upper()}')
     print(f'Input in Swap case : {InPut.swapcase()}')
-    print(f'Input in Capitalized  : {InPut.capitalize()}')
+    print(f'I44nput in Capitalized  : {InPut.capitalize()}')

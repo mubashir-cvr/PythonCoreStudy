@@ -6,6 +6,9 @@ def greet(name, msg):
 
 greet("Monica", "Good morning!")
 
+
+
+
 # Default Argument type
 def greetDefault(name, msg="Good morning!"):
     """
@@ -23,6 +26,9 @@ def greetDefault(name, msg="Good morning!"):
 
 greetDefault("Kate")
 greetDefault("Bruce", "How do you do?")
+
+
+
 # Arbitrary Arguments
 def greetArbitary(*names):
     """This function greets all
@@ -34,11 +40,19 @@ def greetArbitary(*names):
 
 
 greetArbitary("Monica", "Luke", "Steve", "John")
+
+
+
+
 #Arbitary Argumetn With Key,Value
 def myfn(**data):
     print(data)
 
 myfn(key1=1,key2=2,Key3=3,key4=4,key5=5)
+
+
+
+
 # KeyWord Argument 
     # 2 keyword arguments
 greet(name = "Bruce",msg = "How do you do?")

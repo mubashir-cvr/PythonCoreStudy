@@ -34,3 +34,13 @@ def greetArbitary(*names):
 
 
 greetArbitary("Monica", "Luke", "Steve", "John")
+
+# KeyWord Argument 
+# 2 keyword arguments
+greet(name = "Bruce",msg = "How do you do?")
+
+# 2 keyword arguments (out of order)
+greet(msg = "How do you do?",name = "Bruce") 
+
+# 1 positional, 1 keyword argument
+greet("Bruce", msg = "How do you do?")  

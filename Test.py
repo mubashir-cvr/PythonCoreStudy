@@ -1,5 +1,8 @@
-def passByref(n):
-    print(n)
-    print(n[0])
-lst=[1,2,3,4]
-passByref(lst)
+item = 'Apple'
+def display():
+    global item
+    item = 'Mango'
+    print('Printing Item from Inside of fxn : ',item)
+
+display()
+print('Printing Item from outside fxn: ',item)

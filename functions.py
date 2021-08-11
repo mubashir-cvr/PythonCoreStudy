@@ -89,3 +89,11 @@ def display():
 display()
 print('Printing Item from outside fxn: ',item)
 print('Printing my_var from outside fxn: ',my_var)
+
+
+
+
+# Anonymous Or Lamda Function 
+double = lambda x: x * 2
+
+print(double(5))

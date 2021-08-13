@@ -1,0 +1,6 @@
+PIP 
+##################################
+
+pip install <Package_name>   -> INstall Pacckage
+pip unistall <Package Name>  -> unistall Package
+pip list           --> List Installed Package 

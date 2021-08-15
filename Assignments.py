@@ -11,6 +11,8 @@
 #     print(f'Input in Upper case : {InPut.upper()}')
 #     print(f'Input in Swap case : {InPut.swapcase()}')
 #     print(f'I44nput in Capitalized  : {InPut.capitalize()}')
+# test From macdf xclice
+
 
 
 def myfn(**data):

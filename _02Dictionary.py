@@ -1,8 +1,6 @@
 
 
-dict ={'number':{Mynumber','names':['Mubash','Hidsd']}
 
-print(dict['names'])
 
 # import sys
 # nPerson = int(input('Number of person :'))

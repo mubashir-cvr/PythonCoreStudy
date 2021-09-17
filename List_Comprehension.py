@@ -35,11 +35,16 @@
 
 #########################################
 
-lst =['Red','Green','Blue']
-_dst={k:[input('%s :'%v) for v in lst] for k in range(2)}
+# lst =['Red','Green','Blue']
+# _dst={k:[input('%s :'%v) for v in lst] for k in range(2)}
 
-print(_dst)
+# print(_dst)
 
-_lst = {v for k,v in _dst.items() }
+# _lst = {v for k,v in _dst.items() }
 
-print(_lst)
+# print(_lst)
+
+matrix = [[input(f'Enter {i},{j} th value :') for j in range(2)] for i in range(2)]
+print('Martis :',end=" ") 
+print(matrix)
+
